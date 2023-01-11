@@ -1,0 +1,62 @@
+.heading{
+    display: flex;
+ gap: 5rem;
+ padding: 0.2rem;
+ justify-content: center;
+}
+.heading>span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+.heading :nth-child(2){
+    color: #fff;
+}
+.Program-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+
+}
+.card{
+    background: gray;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.card>:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: #fff;
+}
+.card :nth-child(2){
+    font-weight: 800;
+    font-size: 1rem;
+    
+}
+
+.card:hover{
+    background: var(--planCard);
+    cursor: pointer;
+    
+}
+.card :nth-child(3){
+
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.join-now{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.join-now>img{
+    width: 1rem;
+}

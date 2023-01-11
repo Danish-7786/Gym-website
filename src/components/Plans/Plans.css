@@ -1,0 +1,15 @@
+.Plan{
+    
+}
+.Plan-text{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 800;
+    font-size: 3rem;
+    font-style: italic;
+    
+}
+.Plan-text> :nth-child(2){
+color: #fff;
+
+}
