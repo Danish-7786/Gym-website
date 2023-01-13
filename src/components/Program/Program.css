@@ -1,17 +1,17 @@
-.heading{
+.program-heading{
     display: flex;
  gap: 5rem;
  padding: 0.2rem;
  justify-content: center;
 }
-.heading>span{
+.program-heading>span{
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: bold;
     font-style: italic;
     
 }
-.heading :nth-child(2){
+.program-heading :nth-child(2){
     color: #fff;
 }
 .Program-card{
