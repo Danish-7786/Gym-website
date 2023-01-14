@@ -1,0 +1,57 @@
+.Join{
+    padding: 0 2rem;
+   display: flex;
+gap: 10rem;
+}
+.Join-oval{
+    width: 10rem;
+    
+    border: 2px solid orange;
+    border-radius: 5px;
+
+}
+
+.left-j>div{
+    display: flex;
+    gap: 1rem;
+}
+.left-j>div>span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.left-j> :nth-child(2)> :nth-child(2) ,.left-j> :nth-child(3)> :nth-child(1){
+    color: #fff;
+
+}
+
+form{
+  
+    padding: 1rem 2rem;
+    background: gray;
+    
+    display: flex;
+
+    gap: 3rem;
+  
+}
+form> input{
+   outline: none;
+    border:none;
+  
+    color: var(--lightgray);
+    background: transparent;
+}
+::placeholder{
+    color: var(--lightgray);
+}
+
+.right-j{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.btn-j{
+color: #fff;
+background-color: var(--orange);
+}

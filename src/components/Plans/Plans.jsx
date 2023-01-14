@@ -6,6 +6,7 @@ import rightArrow from '../../assets/rightArrow.png'
 const Plans = () => {
   return (
     <div className='Plan-container'>
+      <div className="blur blur-p"></div>
         <div className="program-heading" style={{gap:'2rem'}}>
         <span className="stroke-text">READY TO START</span>
         <span>YOUR JOURNEY</span>
@@ -32,6 +33,7 @@ const Plans = () => {
       </div>
 
      ))}
+         <div className="blur blur-bottom"></div>
     
    </div>
         </div>

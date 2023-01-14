@@ -5,9 +5,11 @@ import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
+import {motion} from 'framer-motion'
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="blur blur-h"></div>
       <div className="left-h">
         <Header />
         <div className="the-best-ad">
